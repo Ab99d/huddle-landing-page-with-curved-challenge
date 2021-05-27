@@ -1,0 +1,1003 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+/* start styling header */
+
+header {
+	padding-bottom: 9rem;
+}
+
+header .logo {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin: 4.6rem 4rem;
+}
+
+header .logo svg {
+	width: 268px;
+	height: 41px;
+}
+
+header .logo button {
+	width: 133px;
+	height: 40px;
+	border-radius: 100px;
+	border: 0.7px solid hsl(322, 100%, 66%);
+	cursor: pointer;
+	background-color: white;
+	color: hsl(322, 100%, 66%);
+	box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);
+	font-family: Open Sans;
+	font-weight: 600;
+	font-size: 0.9rem;
+	outline: none;
+}
+
+header .logo button:hover {
+	color: hsl(321, 100%, 78%);
+	border: 0.7px solid hsl(321, 100%, 78%);
+}
+
+/* end styling header */
+
+/*...........................................................................*/
+
+/* start styling build community */
+
+.build-community {
+	max-width: 80%;
+	margin: auto;
+	padding-bottom: 7rem;
+}
+
+.build-community .container {
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.build-community .container h1 {
+	font-size: 3rem;
+	text-align: center;
+	font-family: Poppins;
+	color: hsl(192, 100%, 9%);
+	margin-bottom: 1.5rem;
+}
+
+.build-community .container p {
+	max-width: 610px;
+	font-size: 1.2rem;
+	text-align: center;
+	font-family: Open Sans;
+	font-weight: 600;
+	color: hsl(192, 100%, 9%);
+	margin-bottom: 3rem;
+}
+
+.build-community .container button {
+	background-color: hsl(322, 100%, 66%);
+	width: 395px;
+	height: 72px;
+	border-radius: 100px;
+	border: none;
+	outline: none;
+	color: white;
+	font-size: 1.1rem;
+	letter-spacing: 1px;
+	box-shadow: 0px 7px 10px rgb(0 0 0 / 28%);
+	font-weight: 600;
+	font-family: Open Sans;
+	cursor: pointer;
+}
+
+.build-community .container button:hover {
+	background-color: hsl(321, 100%, 78%);
+}
+
+.svg-screen-mockups {
+	max-width: 80%;
+	margin: auto;
+	padding-bottom: 6rem;
+}
+
+.svg-screen-mockups .container {
+	margin: auto;
+}
+
+.svg-screen-mockups .container svg {
+	height: 750px;
+	width: 100%;
+}
+
+/* end styling build community */
+
+/*...........................................................................*/
+
+/* start styling counters */
+
+.counters {
+	max-width: 1250px;
+	margin: auto;
+	padding-bottom: 6rem;
+}
+
+.counters .container {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.counters .container div svg {
+	width: 50px;
+	height: 50px;
+}
+
+.counters .container div h2 {
+	font-family: Open Sans;
+	font-size: 6rem;
+	text-align: center;
+}
+
+.counters .container div p {
+	font-family: Open Sans;
+	font-size: 1.5rem;
+	text-align: center;
+	opacity: 0.7;
+}
+
+/* end styling counters */
+
+/*...........................................................................*/
+
+/* start styling grow together */
+
+.grow-together {
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-bottom: 11rem;
+}
+
+.grow-together .container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	position: absolute;
+	padding: 8rem;
+	margin: auto;
+}
+
+.grow-together .container aside img {
+	width: 100%;
+	height: 100%;
+	margin-top: 2rem;
+}
+
+.grow-together .container .text-grow {
+	margin-right: 6rem;
+}
+
+.grow-together .container .text-grow h2 {
+	font-family: Poppins;
+	font-size: 2.5rem;
+	margin-bottom: 1.2rem;
+}
+
+.grow-together .container .text-grow p {
+	max-width: 520px;
+	font-family: Open Sans;
+	line-height: 25px;
+}
+
+.grow-together svg.mob-scr-1 {
+	display: none;
+}
+
+/* end styling grow together */
+
+/*...........................................................................*/
+
+/* start styling flowing conversation */
+
+.flowing-conversation {
+	padding-bottom: 4rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.flowing-conversation .container {
+	display: flex;
+	align-items: center;
+	margin: auto;
+	padding: 0rem 8rem;
+}
+
+.flowing-conversation .container aside {
+	margin-right: 6rem;
+}
+
+.flowing-conversation .container aside img {
+	width: 100%;
+	height: 100%;
+}
+
+.flowing-conversation .container .text-flowing h2 {
+	font-family: Poppins;
+	font-size: 2.5rem;
+	margin-bottom: 1.2rem;
+}
+
+.flowing-conversation .container .text-flowing p {
+	max-width: 520px;
+	font-family: Open Sans;
+	line-height: 25px;
+}
+
+/* end styling flowing conversation */
+
+/*...........................................................................*/
+
+/* start styling your users */
+
+.your-users {
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-bottom: 10rem;
+}
+
+.your-users .container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	position: absolute;
+	padding: 8rem;
+	margin: auto;
+}
+
+.your-users .container aside img {
+	width: 100%;
+	height: 100%;
+	margin-top: 6rem;
+}
+
+.your-users .container .text-users {
+	margin-right: 6rem;
+}
+
+.your-users .container .text-users h2 {
+	font-family: Poppins;
+	font-size: 2.5rem;
+	margin-bottom: 1.2rem;
+}
+
+.your-users .container .text-users p {
+	max-width: 520px;
+	font-family: Open Sans;
+	line-height: 25px;
+}
+
+.your-users svg.mob-scr-2 {
+	display: none;
+}
+
+/* end styling your users */
+
+/*...........................................................................*/
+
+/* start styling build your community */
+
+.build-your-community {
+	padding-bottom: 10rem;
+}
+
+.build-your-community .container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	padding: 2rem;
+}
+
+.build-your-community h2 {
+	font-size: 2.5rem;
+	text-align: center;
+	font-family: Poppins;
+	color: hsl(192, 100%, 9%);
+	margin-bottom: 2rem;
+}
+
+.build-your-community .container button {
+	background-color: hsl(322, 100%, 66%);
+	width: 395px;
+	height: 72px;
+	border-radius: 100px;
+	border: none;
+	outline: none;
+	color: white;
+	font-size: 1.1rem;
+	letter-spacing: 1px;
+	box-shadow: 0px 7px 10px rgb(0 0 0 / 28%);
+	font-weight: 600;
+	font-family: Open Sans;
+	cursor: pointer;
+}
+
+.build-your-community .container button:hover {
+	background-color: hsl(321, 100%, 78%);
+}
+
+/* end styling build your community */
+
+/*...........................................................................*/
+
+/* start styling footer */
+
+.footer {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+}
+
+.footer .container {
+	width: 1423px;
+	padding: 9rem 8rem 0rem;
+	position: absolute;
+	display: flex;
+	justify-content: space-between;
+	margin: auto;
+}
+
+.footer .container div svg:first-child {
+	margin-bottom: 1.3rem;
+}
+
+.footer .container div p:first-of-type {
+	color: white;
+	font-family: Open Sans;
+	font-size: 14px;
+	max-width: 287px;
+	margin-bottom: 1.3rem;
+	line-height: 25px;
+}
+
+.footer .container div span {
+	color: white;
+	font-family: Open Sans;
+	font-size: 15px;
+	margin-left: 1rem;
+}
+
+.footer .container div .social-icon {
+	color: white;
+	margin-top: 5rem;
+}
+
+.footer .container div .social-icon i {
+	font-size: 2.3rem;
+}
+
+.footer .container div .social-icon i:not(:last-child) {
+	margin-right: 1rem;
+}
+
+.footer .container aside h2 {
+	margin-bottom: 1rem;
+	color: white;
+	font-family: Poppins;
+}
+
+.footer .container aside p {
+	color: white;
+	font-family: Open Sans;
+	font-size: 14px;
+	max-width: 326px;
+	margin-bottom: 2.5rem;
+	line-height: 25px;
+}
+
+:root {
+	--size: 320px;
+}
+
+.footer .container aside input {
+	width: var(--size);
+	height: 45px;
+	border-radius: 5px;
+	border: none;
+	outline: none;
+	padding: 1rem;
+	font-family: Open Sans;
+	font-weight: 600;
+	position: relative;
+}
+
+.footer .container aside input:focus {
+	border: 1px solid hsl(322, 100%, 66%);
+}
+
+.footer .container aside span::after {
+	content: "Check your email please";
+	color: hsl(0, 100%, 63%);
+	font-family: Open Sans;
+	font-size: 0px;
+	margin-top: 10px;
+	display: block;
+}
+
+.footer .container aside input:focus ~ span:after {
+	font-size: 12px;
+}
+
+.footer .container aside button {
+	width: 143px;
+	height: 45px;
+	margin-left: 2rem;
+	border-radius: 5px;
+	border: none;
+	outline: none;
+	font-family: Open Sans;
+	font-weight: 600;
+	background-color: hsl(322, 100%, 66%);
+	color: white;
+	cursor: pointer;
+	font-size: 15px;
+}
+
+.footer .container aside button:hover {
+	background-color: hsl(321, 100%, 78%);
+}
+
+.footer svg.mob-scr-3 {
+	display: none;
+}
+
+/* end styling footer */
+
+/*...........................................................................*/
+
+/* media query */
+
+@media (max-width: 1440px) {
+	.footer .container {
+		width: 100%;
+	}
+}
+
+@media (max-width: 1200px) {
+	.counters .container div h2 {
+		font-size: 5rem;
+	}
+	.counters .container div p {
+		font-family: Open Sans;
+		font-size: 1.2rem;
+		text-align: center;
+		opacity: 0.7;
+	}
+	.footer .container {
+		padding: 5rem 6rem 0rem;
+	}
+	.footer .container aside input {
+		width: calc(var(--size) - 70px);
+	}
+	.footer .container div .social-icon {
+		margin-top: 2rem;
+	}
+	.footer .container div p:first-of-type {
+		max-width: 258px;
+	}
+}
+
+@media (min-width: 500px) and (max-width: 992px) {
+	header .logo {
+		margin: 2.5rem;
+	}
+
+	/*...........................................................................*/
+
+	.svg-screen-mockups {
+		padding-bottom: 0rem;
+	}
+	.svg-screen-mockups .container svg {
+		height: 300px;
+	}
+
+	/*...........................................................................*/
+
+	.counters {
+		padding-bottom: 0rem;
+	}
+	.counters .container {
+		flex-direction: column;
+	}
+	.counters .container div:first-child {
+		margin-bottom: 5rem;
+	}
+	.counters .container div:last-child {
+		margin-bottom: 0.5rem;
+	}
+	.counters .container div:first-child h2 {
+		font-size: 3.7rem;
+	}
+	.counters .container div p {
+		font-size: 1rem;
+	}
+	.counters .container div:last-child h2 {
+		font-size: 3.4rem;
+	}
+	.counters .container div svg {
+		width: 35px;
+		height: 50px;
+	}
+
+	/*...........................................................................*/
+
+	.grow-together {
+		padding-bottom: 5rem;
+	}
+	.grow-together .container {
+		flex-direction: column;
+		padding: 2rem;
+		position: static;
+	}
+	.grow-together .container .text-grow {
+		margin-right: 0rem;
+		order: 2;
+	}
+	.grow-together .container .aside {
+		order: 1;
+	}
+	.grow-together .container .text-grow h2 {
+		font-size: 1.5rem;
+		text-align: center;
+	}
+	.grow-together .container .text-grow p {
+		max-width: 300px;
+		line-height: 21px;
+		font-size: 13px;
+		text-align: center;
+		font-weight: 800;
+	}
+	.grow-together svg.desk-scr-1 {
+		display: none !important;
+	}
+	.grow-together svg.mob-scr-1 {
+		display: none !important;
+	}
+
+	/*...........................................................................*/
+
+	.flowing-conversation {
+		padding-bottom: 2.5rem;
+	}
+	.flowing-conversation .container {
+		flex-direction: column;
+		position: static;
+	}
+	.flowing-conversation .container .text-flowing {
+		order: 2;
+	}
+	.flowing-conversation .container aside {
+		order: 1;
+		margin-right: 0rem;
+		display: flex;
+		justify-content: center;
+		margin-bottom: 3rem;
+	}
+	.flowing-conversation .container aside img {
+		width: 95%;
+		height: 95%;
+	}
+	.flowing-conversation .container {
+		padding: 2rem;
+	}
+	.flowing-conversation .container .text-flowing {
+		margin-right: 0rem;
+	}
+	.flowing-conversation .container .text-flowing h2 {
+		font-size: 1.5rem;
+		text-align: center;
+	}
+	.flowing-conversation .container .text-flowing p {
+		max-width: 300px;
+		line-height: 21px;
+		font-size: 13px;
+		text-align: center;
+		font-weight: 800;
+	}
+
+	/*...........................................................................*/
+
+	.your-users {
+		padding-bottom: 5rem;
+	}
+	.your-users .container {
+		flex-direction: column;
+		top: 0;
+		position: static;
+	}
+	.your-users .container .text-users {
+		order: 2;
+	}
+	.your-users .container aside {
+		order: 1;
+		display: flex;
+		justify-content: center;
+		margin-bottom: 4rem;
+	}
+	.your-users .container aside img {
+		width: 95%;
+		height: 95%;
+	}
+	.your-users .container {
+		padding: 2rem;
+	}
+	.your-users .container .text-users {
+		margin-right: 0rem;
+	}
+	.your-users .container .text-users h2 {
+		font-size: 1.5rem;
+		text-align: center;
+	}
+	.your-users .container .text-users p {
+		max-width: 300px;
+		line-height: 21px;
+		font-size: 13px;
+		text-align: center;
+		font-weight: 800;
+	}
+	.your-users svg.desk-scr-2 {
+		display: none !important;
+	}
+	.your-users svg.mob-scr-2 {
+		display: none !important;
+	}
+
+	/*...........................................................................*/
+
+	.build-your-community {
+		padding-bottom: 4rem;
+	}
+
+	/*...........................................................................*/
+
+	.footer .container {
+		flex-direction: column;
+		padding: 5rem 2rem 0rem;
+		position: static;
+	}
+	.footer .container div {
+		order: 2;
+		margin-bottom: 24px;
+	}
+	.footer .container div svg:first-of-type {
+		transform: scale(0.40);
+	}
+	.footer .container div svg:first-of-type path {
+		fill: #00252e;
+	}
+	.footer .container div svg:not(:first-of-type) path:last-of-type {
+		fill: #00252e;
+	}
+	.footer .container div span {
+		color: #00252e;
+	}
+	.footer .container aside {
+		order: 1;
+		margin-bottom: 70px;
+		display: flex;
+		flex-direction: column;
+	}
+	.footer .container aside h2 {
+		color: #00252e;
+	}
+	.footer .container aside p {
+		margin-bottom: 1.5rem;
+		color: #00252e;
+	}
+	.footer .container aside input {
+		width: 100%;
+		background-color: #00252e;
+		color: white;
+	}
+	.footer .container aside button {
+		margin-left: 0rem;
+		margin-top: 1rem;
+		align-self: flex-end;
+	}
+	.footer svg.mob-scr-3 {
+		display: none !important;
+	}
+	.footer svg.desk-scr-3 {
+		display: none !important;
+	}
+	.footer .container div p:first-of-type {
+		max-width: 288px;
+		margin-bottom: 2.5rem;
+		color: #00252e;
+	}
+	.footer .container div .social-icon {
+		margin-top: 3rem;
+		color: #00252e;
+	}
+	.footer .container aside span {
+		position: relative;
+	}
+	.footer .container aside span::after {
+		position: absolute;
+		top: -60px;
+	}
+}
+
+@media (max-width: 500px) {
+	header {
+		padding-bottom: 5rem;
+	}
+	header .logo {
+		margin: 1.6rem 2rem;
+	}
+	header .logo svg {
+		width: 115px;
+		height: 41px;
+	}
+	header .logo button {
+		width: 82px;
+		height: 26px;
+		font-size: 0.6rem;
+	}
+
+	/*...........................................................................*/
+
+	.build-community {
+		padding-bottom: 6rem;
+	}
+	.build-community .container h1 {
+		font-size: 1.5rem;
+	}
+	.build-community .container p {
+		max-width: 300px;
+		font-size: 13px;
+		font-weight: 800;
+	}
+	.build-community .container button {
+		width: 200px;
+		height: 40px;
+		font-size: 11px;
+	}
+
+	/*...........................................................................*/
+
+	.svg-screen-mockups .container svg {
+		height: 205px;
+	}
+
+	/*...........................................................................*/
+
+	.counters {
+		padding-bottom: 0rem;
+	}
+	.counters .container {
+		flex-direction: column;
+	}
+	.counters .container div:first-child {
+		margin-bottom: 5rem;
+	}
+	.counters .container div:last-child {
+		margin-bottom: 0.5rem;
+	}
+	.counters .container div:first-child h2 {
+		font-size: 4rem;
+	}
+	.counters .container div p {
+		font-size: 1rem;
+	}
+	.counters .container div:last-child h2 {
+		font-size: 3.4rem;
+	}
+	.counters .container div svg {
+		width: 35px;
+		height: 50px;
+	}
+
+	/*...........................................................................*/
+
+	.grow-together {
+		padding-bottom: 7rem;
+	}
+	.grow-together .container {
+		flex-direction: column;
+		padding: 2rem;
+	}
+	.grow-together .container .text-grow {
+		order: 2;
+	}
+	.grow-together .container aside {
+		order: 1;
+		margin-bottom: 2rem;
+	}
+	.grow-together .container .text-grow {
+		margin-right: 0rem;
+	}
+	.grow-together .container .text-grow h2 {
+		font-size: 1.5rem;
+		text-align: center;
+	}
+	.grow-together .container .text-grow p {
+		max-width: 300px;
+		line-height: 21px;
+		font-size: 13px;
+		text-align: center;
+		font-weight: 800;
+	}
+	.grow-together svg.mob-scr-1 {
+		display: block;
+	}
+
+	.grow-together svg.desk-scr-1 {
+		display: none;
+	}
+
+	/*...........................................................................*/
+
+	.flowing-conversation {
+		padding-bottom: 5rem;
+	}
+	.flowing-conversation .container {
+		flex-direction: column;
+	}
+	.flowing-conversation .container .text-flowing {
+		order: 2;
+	}
+	.flowing-conversation .container aside {
+		order: 1;
+		margin-right: 0rem;
+		display: flex;
+		justify-content: center;
+		margin-bottom: 3rem;
+	}
+	.flowing-conversation .container aside img {
+		width: 95%;
+		height: 95%;
+	}
+	.flowing-conversation .container {
+		padding: 2rem;
+	}
+	.flowing-conversation .container .text-flowing {
+		margin-right: 0rem;
+	}
+	.flowing-conversation .container .text-flowing h2 {
+		font-size: 21px;
+		text-align: center;
+	}
+	.flowing-conversation .container .text-flowing p {
+		max-width: 311px;
+		line-height: 21px;
+		font-size: 13.5px;
+		text-align: center;
+	}
+
+	/*...........................................................................*/
+
+	.your-users {
+		padding-bottom: 5rem;
+	}
+	.your-users .container {
+		flex-direction: column;
+		top: 0;
+	}
+	.your-users .container .text-users {
+		order: 2;
+	}
+	.your-users .container aside {
+		order: 1;
+		display: flex;
+		justify-content: center;
+		margin-bottom: 4rem;
+	}
+	.your-users .container aside img {
+		width: 95%;
+		height: 95%;
+	}
+	.your-users .container {
+		padding: 2rem;
+	}
+	.your-users .container .text-users {
+		margin-right: 0rem;
+	}
+	.your-users .container .text-users h2 {
+		font-size: 1.4rem;
+		text-align: center;
+	}
+	.your-users .container .text-users p {
+		max-width: 316px;
+		line-height: 21px;
+		font-size: 13.1px;
+		font-weight: 600;
+		text-align: center;
+	}
+	.your-users svg.mob-scr-2 {
+		display: block;
+	}
+
+	.your-users svg.desk-scr-2 {
+		display: none;
+	}
+
+	/*...........................................................................*/
+
+	.build-your-community {
+		padding-bottom: 15rem;
+	}
+	.build-your-community h2 {
+		font-size: 1.5rem;
+	}
+	.build-your-community .container button {
+		width: 200px;
+		height: 40px;
+		font-size: 11px;
+	}
+
+	/*...........................................................................*/
+
+	.footer .container {
+		flex-direction: column;
+		padding: 5rem 2rem 0rem;
+	}
+	.footer .container div svg:first-of-type {
+		transform: scale(0.75) translate(-50px, 15px);
+	}
+	.footer .container div {
+		order: 2;
+		margin-bottom: 24px;
+	}
+	.footer .container aside {
+		order: 1;
+		margin-bottom: 70px;
+		display: flex;
+		flex-direction: column;
+	}
+	.footer .container aside p {
+		margin-bottom: 1.5rem;
+	}
+	.footer .container aside input {
+		width: 100%;
+	}
+	.footer .container aside span {
+		position: relative;
+	}
+	.footer .container aside span::after {
+		position: absolute;
+		top: -60px;
+	}
+	.footer .container aside button {
+		margin-left: 0rem;
+		margin-top: 1rem;
+		align-self: flex-end;
+	}
+	.footer svg.mob-scr-3 {
+		display: block;
+	}
+
+	.footer svg.desk-scr-3 {
+		display: none;
+	}
+	.footer .container div p:first-of-type {
+		max-width: 288px;
+		margin-bottom: 2.5rem;
+	}
+	.footer .container div .social-icon {
+		margin-top: 3rem;
+	}
+}
