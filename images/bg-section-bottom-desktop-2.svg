@@ -1,1 +1,27 @@
-<svg width="1440" height="139" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><path id="a" d="M0 0h1440v162H0z"/></defs><g fill="none" fill-rule="evenodd"><mask id="b" fill="#fff"><use xlink:href="#a"/></mask><g mask="url(#b)"><path d="M-5.845-498.692C254.493-641 483.665-676.577 681.673-605.422c297.011 106.73 536.472 92.279 752.482 0 144.006-61.52 144.006 146.903 0 625.271-235.532 101.575-436.707 121.978-603.526 61.208C580.4-10.098 200.12-10.098.438 138.207c-133.123 98.87-135.217-113.43-6.283-636.899z" fill="#F6FBFF"/><path d="M760-521h560V39H760z"/></g></g></svg>
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1440 780" style="enable-background:new 0 0 1440 780;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill-rule:evenodd;clip-rule:evenodd;fill:#F6FBFF;}
+	.st1{filter:url(#Adobe_OpacityMaskFilter);}
+	.st2{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;}
+	.st3{mask:url(#b_1_);}
+	.st4{fill:none;}
+</style>
+<path class="st0" d="M-5.8,142.3C254.5,0,483.7-35.6,681.7,35.6c297,106.7,536.5,92.3,752.5,0c144-61.5,144,146.9,0,625.3
+	c-235.5,101.6-436.7,122-603.5,61.2c-250.2-91.2-630.5-91.2-830.2,57.2C-132.7,878.1-134.8,665.8-5.8,142.3z"/>
+<g>
+	<defs>
+		<filter id="Adobe_OpacityMaskFilter" filterUnits="userSpaceOnUse" x="760" y="120" width="560" height="560">
+			<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+		</filter>
+	</defs>
+	<mask maskUnits="userSpaceOnUse" x="760" y="120" width="560" height="560" id="b_1_">
+		<g class="st1">
+			<path id="a_1_" class="st2" d="M0,641h1440v162H0V641z"/>
+		</g>
+	</mask>
+	<g class="st3">
+		<path class="st4" d="M760,120h560v560H760V120z"/>
+	</g>
+</g>
+</svg>

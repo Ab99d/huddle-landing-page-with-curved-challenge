@@ -1,1 +1,25 @@
-<svg width="375" height="52" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><path id="a" d="M0 0h375v57H0z"/></defs><g fill="none" fill-rule="evenodd"><mask id="b" fill="#fff"><use xlink:href="#a"/></mask><g mask="url(#b)" fill="#F6FBFF"><path d="M-207-568.256c77.41-77.72 151.307-92.358 221.691-43.915 105.576 72.665 231.586 48.443 300.742 0 69.157-48.443 71.137-107.51 206.435-44.413 135.298 63.096 0 633.32 0 633.32S414.619 93.005 222.294 34.87C94.077-3.886-49.02 10.824-207 79v-647.256z"/></g></g></svg>
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 375 736" style="enable-background:new 0 0 375 736;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill-rule:evenodd;clip-rule:evenodd;fill:#F6FBFF;}
+	.st1{filter:url(#Adobe_OpacityMaskFilter);}
+	.st2{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;}
+	.st3{mask:url(#b_1_);}
+</style>
+<path class="st0" d="M-207,115.7C-129.6,38-55.7,23.4,14.7,71.8c105.6,72.7,231.6,48.4,300.7,0c69.2-48.4,71.1-107.5,206.4-44.4
+	c135.3,63.1,0,633.3,0,633.3S414.6,777,222.3,718.9C94.1,680.1-49,694.8-207,763V115.7z"/>
+<g>
+	<defs>
+		<filter id="Adobe_OpacityMaskFilter" filterUnits="userSpaceOnUse">
+			<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+		</filter>
+	</defs>
+	<mask maskUnits="userSpaceOnUse" id="b_1_">
+		<g class="st1">
+			<path id="a_1_" class="st2" d="M0,684h375v57H0V684z"/>
+		</g>
+	</mask>
+	<g class="st3">
+	</g>
+</g>
+</svg>

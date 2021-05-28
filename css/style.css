@@ -197,8 +197,7 @@ header .logo button:hover {
 	font-family: Open Sans;
 	line-height: 25px;
 }
-
-.grow-together svg.mob-scr-1 {
+.grow-together img.mob-scr-1 {
 	display: none;
 }
 
@@ -288,7 +287,7 @@ header .logo button:hover {
 	line-height: 25px;
 }
 
-.your-users svg.mob-scr-2 {
+.your-users img.mob-scr-2 {
 	display: none;
 }
 
@@ -460,7 +459,7 @@ header .logo button:hover {
 	background-color: hsl(321, 100%, 78%);
 }
 
-.footer svg.mob-scr-3 {
+.footer img.mob-scr-3 {
 	display: none;
 }
 
@@ -570,10 +569,10 @@ header .logo button:hover {
 		text-align: center;
 		font-weight: 800;
 	}
-	.grow-together svg.desk-scr-1 {
+	.grow-together img.desk-scr-1 {
 		display: none !important;
 	}
-	.grow-together svg.mob-scr-1 {
+	.grow-together img.mob-scr-1 {
 		display: none !important;
 	}
 
@@ -658,10 +657,10 @@ header .logo button:hover {
 		text-align: center;
 		font-weight: 800;
 	}
-	.your-users svg.desk-scr-2 {
+	.your-users img.desk-scr-2 {
 		display: none !important;
 	}
-	.your-users svg.mob-scr-2 {
+	.your-users img.mob-scr-2 {
 		display: none !important;
 	}
 
@@ -717,10 +716,10 @@ header .logo button:hover {
 		margin-top: 1rem;
 		align-self: flex-end;
 	}
-	.footer svg.mob-scr-3 {
+	.footer img.mob-scr-3 {
 		display: none !important;
 	}
-	.footer svg.desk-scr-3 {
+	.footer img.desk-scr-3 {
 		display: none !important;
 	}
 	.footer .container div p:first-of-type {
@@ -841,11 +840,10 @@ header .logo button:hover {
 		text-align: center;
 		font-weight: 800;
 	}
-	.grow-together svg.mob-scr-1 {
+	.grow-together img.mob-scr-1 {
 		display: block;
 	}
-
-	.grow-together svg.desk-scr-1 {
+	.grow-together img.desk-scr-1 {
 		display: none;
 	}
 
@@ -927,11 +925,11 @@ header .logo button:hover {
 		font-weight: 600;
 		text-align: center;
 	}
-	.your-users svg.mob-scr-2 {
+	.your-users img.mob-scr-2 {
 		display: block;
 	}
 
-	.your-users svg.desk-scr-2 {
+	.your-users img.desk-scr-2 {
 		display: none;
 	}
 
@@ -986,11 +984,11 @@ header .logo button:hover {
 		margin-top: 1rem;
 		align-self: flex-end;
 	}
-	.footer svg.mob-scr-3 {
+	.footer img.mob-scr-3 {
 		display: block;
 	}
 
-	.footer svg.desk-scr-3 {
+	.footer img.desk-scr-3 {
 		display: none;
 	}
 	.footer .container div p:first-of-type {

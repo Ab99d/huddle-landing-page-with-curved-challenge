@@ -1,1 +1,24 @@
-<svg width="375" height="53" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><path id="a" d="M0 0h375v53H0z"/></defs><g fill="none" fill-rule="evenodd"><mask id="b" fill="#fff"><use xlink:href="#a"/></mask><g mask="url(#b)" fill="#00252E"><path d="M0 20.756c57.764-25.65 127.028-25.65 207.792 0C328.938 59.229 332.12 25.58 375.022.696 403.624-15.893 429.283 263.876 452 840H0V20.756z"/></g></g></svg>
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 375 840" style="enable-background:new 0 0 375 840;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill-rule:evenodd;clip-rule:evenodd;fill:#00252E;}
+	.st1{filter:url(#Adobe_OpacityMaskFilter);}
+	.st2{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;}
+	.st3{mask:url(#b_1_);}
+</style>
+<path class="st0" d="M0,20.8c57.8-25.6,127-25.6,207.8,0C328.9,59.2,332.1,25.6,375,0.7c28.6-16.6,54.3,263.2,77,839.3H0V20.8z"/>
+<g>
+	<defs>
+		<filter id="Adobe_OpacityMaskFilter" filterUnits="userSpaceOnUse">
+			<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+		</filter>
+	</defs>
+	<mask maskUnits="userSpaceOnUse" id="b_1_">
+		<g class="st1">
+			<path id="a_1_" class="st2" d="M0,0h375v53H0V0z"/>
+		</g>
+	</mask>
+	<g class="st3">
+	</g>
+</g>
+</svg>
